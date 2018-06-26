@@ -1,8 +1,9 @@
+
 $(document).ready(function() {
-  const apiRoot = 'https://intense-journey-98130.herokuapp.com/v1/task/getTasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
-  const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  const $tasksContainer = $('[data-tasks-container]');
+    const apiRoot = 'https://intense-journey-98130.herokuapp.com/v1/task'
+    const trelloApiRoot = 'https://intense-journey-98130.herokuapp.com/v1/trello';
+    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+    const $tasksContainer = $('[data-tasks-container]');
 
   var availableBoards = {};
   var availableTasks = {};
